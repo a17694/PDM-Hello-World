@@ -62,7 +62,7 @@ fun Greet( modifier: Modifier = Modifier) {
             var date = Date()
             greetingText = "Olá $name  day:${date.dayNumber()} "  + date.longDateString()
         }) {
-            Text(text = "Greet${3.isEven()}" )
+            Text(text = "Go!" )
         }
         Text(text = greetingText)
     }
